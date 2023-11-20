@@ -1,6 +1,8 @@
 ## Vectorgrad
 
 Welcome to Vectorgrad, a spin-off of the original [micrograd](https://github.com/karpathy/micrograd).
+You can start using it immediately by running `pip install vectorgrad` on your terminal and importing the `Vector` class for mathematical operations with
+For the most part it uses the same API as torch.tensor but in a more simplified and streamlined way.
 
 This is an automatic differentiation library that supports tensor operations and calculus. Here's why I built it:
 1) It's much more lightweight and readable compared to bigger libraries such as PyTorch and TensorFlow, this simplified source code allows users to get a much better grasp of how everything works
